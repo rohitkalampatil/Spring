@@ -35,7 +35,7 @@ This program has no pre-requisites
 1. Clone the repo
 
 ```sh
-git clone https://github.com/rohitkalampatil/springcoreFirst.git
+git clone https://github.com/rohitkalampatil/Spring.git
 ```
 
 2. Open The src/main/java file  and run

@@ -9,6 +9,7 @@ public class MyApp {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 		Vehicle vehicle1 = context.getBean("car", Vehicle.class);
 		System.out.println(vehicle1.getMiledge());
+		System.out.println(vehicle1.getDiscountMessage());
 	}
 
 }

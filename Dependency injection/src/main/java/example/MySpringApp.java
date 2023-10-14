@@ -9,6 +9,8 @@ public class MySpringApp {
 		Vehicle vehicle = context.getBean("myBus",Vehicle.class);
 		System.out.println(vehicle.getMiledge());
 		System.out.println(vehicle.getDiscount());
+		System.out.println(vehicle.getBrandName());
+		System.out.println(vehicle.getPrice());
 	}
 
 }

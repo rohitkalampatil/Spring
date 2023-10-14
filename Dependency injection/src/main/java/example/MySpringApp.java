@@ -8,6 +8,7 @@ public class MySpringApp {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 		Vehicle vehicle = context.getBean("myBus",Vehicle.class);
 		System.out.println(vehicle.getMiledge());
+		System.out.println(vehicle.getDiscount());
 	}
 
 }

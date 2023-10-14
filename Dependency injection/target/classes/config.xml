@@ -10,7 +10,8 @@
     ">
     
     <bean id="myBus" class="example.Bus" >
-    
+    <constructor-arg ref="myDiscountService"></constructor-arg>
     </bean>
+    <bean id="myDiscountService" class="example.FestivalDiscountImp"></bean>
     
 </beans>

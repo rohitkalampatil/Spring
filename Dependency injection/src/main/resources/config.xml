@@ -11,7 +11,7 @@
 	<!-- <context:property-placeholder location="car.properties"/> -->
 	
 	
-	<bean id="myBus" class="example.Car">
+	<bean id="myBus" class="example.Car" scope="prototype">
 		<!-- <constructor-arg ref="myDiscountService"></constructor-arg> -->
 		<property name="discountService" ref="myDiscountService"></property>
 		<property name="brandName" value="TATA"></property>

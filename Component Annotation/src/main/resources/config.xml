@@ -12,5 +12,6 @@
 	
 	<!-- <context:property-placeholder location="car.properties"/> -->
 	<context:component-scan base-package="example"></context:component-scan>
+		<context:property-placeholder location="car.properties"/>
 	
 </beans>
